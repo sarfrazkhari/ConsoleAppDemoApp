@@ -1,0 +1,1101 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Aquality.WinAppDriver</name>
+    </assembly>
+    <members>
+        <member name="T:Aquality.WinAppDriver.Actions.ActionKey">
+            <summary>
+            Represents action keys which could be used in <see cref="T:Aquality.WinAppDriver.Actions.IKeyboardActions"/>.
+            Used to enhance logging of SendKeys actions
+            Directly related to <see cref="T:OpenQA.Selenium.Keys"/>
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Null">
+            <summary>
+            Represents the NUL keystroke.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.NumberPad0">
+            <summary>
+            Represents the number pad 0 key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.NumberPad1">
+            <summary>
+            Represents the number pad 1 key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.NumberPad2">
+            <summary>
+            Represents the number pad 2 key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.NumberPad3">
+            <summary>
+            Represents the number pad 3 key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.NumberPad4">
+            <summary>
+            Represents the number pad 4 key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.NumberPad5">
+            <summary>
+            Represents the number pad 5 key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.NumberPad6">
+            <summary>
+            Represents the number pad 6 key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.NumberPad7">
+            <summary>
+            Represents the number pad 7 key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.NumberPad8">
+            <summary>
+            Represents the number pad 8 key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.NumberPad9">
+            <summary>
+            Represents the number pad 9 key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Multiply">
+            <summary>
+            Represents the number pad multiplication key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Add">
+            <summary>
+            Represents the number pad addition key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Separator">
+            <summary>
+            Represents the number pad thousands separator key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Equal">
+            <summary>
+            Represents the equal sign key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Subtract">
+            <summary>
+            Represents the number pad subtraction key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Divide">
+            <summary>
+            Represents the number pad division key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.F1">
+            <summary>
+            Represents the function key F1.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.F2">
+            <summary>
+            Represents the function key F2.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.F3">
+            <summary>
+            Represents the function key F3.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.F4">
+            <summary>
+            Represents the function key F4.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.F5">
+            <summary>
+            Represents the function key F5.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.F6">
+            <summary>
+            Represents the function key F6.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.F7">
+            <summary>
+            Represents the function key F7.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.F8">
+            <summary>
+            Represents the function key F8.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.F9">
+            <summary>
+            Represents the function key F9.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.F10">
+            <summary>
+            Represents the function key F10.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.F11">
+            <summary>
+            Represents the function key F11.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.F12">
+            <summary>
+            Represents the function key F12.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Decimal">
+            <summary>
+            Represents the number pad decimal separator key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Meta">
+            <summary>
+            Represents the function key META.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Semicolon">
+            <summary>
+            Represents the semi-colon key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Insert">
+            <summary>
+            Represents the Insert key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Cancel">
+            <summary>
+            Represents the Cancel keystroke.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Help">
+            <summary>
+            Represents the Help keystroke.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Backspace">
+            <summary>
+            Represents the Backspace key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Tab">
+            <summary>
+            Represents the Tab key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Clear">
+            <summary>
+            Represents the Clear keystroke.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Return">
+            <summary>
+            Represents the Return key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Enter">
+            <summary>
+            Represents the Enter key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Shift">
+            <summary>
+            Represents the Shift key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.LeftShift">
+            <summary>
+            Represents the Shift key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Control">
+            <summary>
+            Represents the Control key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.LeftControl">
+            <summary>
+            Represents the Control key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Alt">
+            <summary>
+            Represents the Alt key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.LeftAlt">
+            <summary>
+            Represents the Alt key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Delete">
+            <summary>
+            Represents the Delete key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Pause">
+            <summary>
+            Represents the Pause key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Space">
+            <summary>
+            Represents the Spacebar key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.PageUp">
+            <summary>
+            Represents the Page Up key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.PageDown">
+            <summary>
+            Represents the Page Down key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.End">
+            <summary>
+            Represents the End key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Home">
+            <summary>
+            Represents the Home key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Left">
+            <summary>
+            Represents the left arrow key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.ArrowLeft">
+            <summary>
+            Represents the left arrow key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Up">
+            <summary>
+            Represents the up arrow key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.ArrowUp">
+            <summary>
+            Represents the up arrow key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Right">
+            <summary>
+            Represents the right arrow key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.ArrowRight">
+            <summary>
+            Represents the right arrow key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Down">
+            <summary>
+            Represents the Left arrow key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.ArrowDown">
+            <summary>
+            Represents the Left arrow key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Escape">
+            <summary>
+            Represents the Escape key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ActionKey.Command">
+            <summary>
+            Represents the function key COMMAND.
+            </summary>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Actions.ApplicationActions">
+            <summary>
+            Abstract class for any actions against the whole application.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Actions.ApplicationActions.#ctor(Aquality.Selenium.Core.Localization.ILocalizedLogger,System.Func{OpenQA.Selenium.Appium.Windows.WindowsDriver{OpenQA.Selenium.Appium.Windows.WindowsElement}})">
+            <summary>
+            Instantiates Application actions.
+            </summary>
+            <param name="localizedLogger">Logger for localized values.</param>
+            <param name="windowsDriverSupplier">Method to get current application session.</param>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Actions.ApplicationActions.PerformAction(System.Func{OpenQA.Selenium.Interactions.Actions,OpenQA.Selenium.Interactions.Actions})">
+            <summary>
+            Performs submitted action against new <see cref="T:OpenQA.Selenium.Interactions.Actions"/> object.
+            </summary>
+            <param name="action">Action to be performed.</param>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Actions.ApplicationActions.PerformInRootSession(System.Func{OpenQA.Selenium.Interactions.Actions,OpenQA.Selenium.Interactions.Actions})">
+            <summary>
+            Performs submitted action against the <see cref="P:Aquality.WinAppDriver.Applications.IWindowsApplication.RootSession"/>.
+            </summary>
+            <param name="action">Action to be performed.</param>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Actions.ApplicationActions.LogAction(System.String,System.Object[])">
+            <summary>
+            Logs keyboard action in specific format.
+            </summary>
+            <param name="messageKey">Key of the localized message.</param>
+            <param name="args">Arguments for the localized message.</param>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Actions.IKeyboardActions">
+            <summary>
+            Provides methods representing basic keyboard actions.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Actions.IKeyboardActions.PressKey(Aquality.WinAppDriver.Actions.ModifierKey)">
+            <summary>
+            Presses a key.
+            </summary>
+            <param name="keyToPress">The <see cref="T:Aquality.WinAppDriver.Actions.ModifierKey"/> value representing the key to press.</param>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Actions.IKeyboardActions.ReleaseKey(Aquality.WinAppDriver.Actions.ModifierKey)">
+            <summary>
+            Releases a key.
+            </summary>
+            <param name="keyToRelease">The <see cref="T:Aquality.WinAppDriver.Actions.ModifierKey"/> value representing the key to release.</param>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Actions.IKeyboardActions.SendKeys(System.String,System.Nullable{Aquality.WinAppDriver.Actions.ActionKey})">
+            <summary>
+            Sends a sequence of keystrokes to the target.
+            </summary>
+            <param name="keySequence">A string representing the keystrokes to send.</param>
+            <param name="sendAfterSequence">An action key to send right after the <paramref name="keySequence"/></param>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Actions.IKeyboardActions.SendKeys(Aquality.WinAppDriver.Actions.ActionKey,System.Int32)">
+            <summary>
+            Sends a sequence of keystrokes to the target.
+            </summary>
+            <param name="key">The <see cref="T:Aquality.WinAppDriver.Actions.ActionKey"/> value representing the keystroke to send.</param>
+            <param name="times">Number of times for the keystroke to send.</param>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Actions.IKeyboardActions.SendKeysWithKeyHold(System.String,Aquality.WinAppDriver.Actions.ModifierKey,System.Boolean)">
+            <summary>
+            Sends a sequence of keystrokes to the application, holding a specified key.
+            After the action, holded key is released.
+            </summary>
+            <param name="keySequence">A string representing the keystrokes to send.</param>
+            <param name="keyToHold">The <see cref="T:Aquality.WinAppDriver.Actions.ModifierKey"/> value representing the key to hold.</param>
+            <param name="mayDisappear">May the application or current window disappear after sending the <paramref name="keySequence"/>.</param>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Actions.IMouseActions">
+            <summary>
+            Provides methods representing basic mouse actions.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Actions.IMouseActions.Click">
+            <summary>
+            Clicks the mouse at the last known mouse coordinates.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Actions.IMouseActions.ClickAndHold">
+            <summary>
+            Clicks and holds the mouse button at the last known mouse coordinates.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Actions.IMouseActions.Release">
+            <summary>
+            Releases the mouse button at the last known mouse coordinates.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Actions.IMouseActions.ContextClick">
+            <summary>
+            Right-clicks the mouse at the last known mouse coordinates.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Actions.IMouseActions.DoubleClick">
+            <summary>
+            Double-clicks the mouse at the last known mouse coordinates.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Actions.IMouseActions.MoveByOffset(System.Int32,System.Int32)">
+            <summary>
+            Moves the mouse to the specified offset of the last known mouse coordinates.
+            </summary>
+            <param name="offsetX">The horizontal offset to which to move the mouse.</param>
+            <param name="offsetY">The vertical offset to which to move the mouse.</param>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Actions.IMouseActions.Scroll(System.Int32,System.Int32)">
+            <summary>
+            Scrolls the current screen by specified offset.
+            </summary>
+            <param name="offsetX">The horizontal offset relative to the view port.</param>
+            <param name="offsetY">The vertical offset relative to the view port.</param>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Actions.KeyboardActions">
+            <summary>
+            Implements Keyboard actions for the whole application.
+            </summary>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Actions.ModifierKey">
+            <summary>
+            Represents modifier keys which could be used in <see cref="T:Aquality.WinAppDriver.Actions.IKeyboardActions"/>.
+            Directly related to <see cref="T:OpenQA.Selenium.Keys"/>
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ModifierKey.Alt">
+            <summary>
+            Represents the Alt key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ModifierKey.Command">
+            <summary>
+            Represents the function key COMMAND.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ModifierKey.Control">
+            <summary>
+            Represents the Control key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ModifierKey.LeftAlt">
+            <summary>
+            Represents the Left Alt key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ModifierKey.LeftControl">
+            <summary>
+            Represents the Left Control key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ModifierKey.LeftShift">
+            <summary>
+            Represents the Left Shift key.
+            </summary>
+        </member>
+        <member name="F:Aquality.WinAppDriver.Actions.ModifierKey.Shift">
+            <summary>
+            Represents the Shift key.
+            </summary>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Actions.MouseActions">
+            <summary>
+            Implements Mouse actions for the whole application.
+            </summary>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Applications.Application">
+            <summary>
+            Provides functionality to work with Windows application via WinAppDriver.  
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Applications.Application.#ctor(System.Func{OpenQA.Selenium.Appium.Windows.WindowsDriver{OpenQA.Selenium.Appium.Windows.WindowsElement}},System.Func{OpenQA.Selenium.Appium.Windows.WindowsDriver{OpenQA.Selenium.Appium.Windows.WindowsElement}})">
+            <summary>
+            Instantiate application.
+            </summary>
+            <param name="createApplicationSession">Function to create an instance of WinAppDriver for current application</param>
+            <param name="createRootSession">Function to create an instance of WinAppDriver for desktop session</param>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Applications.Application.SetImplicitWaitTimeout(System.TimeSpan)">
+            <summary>
+            Sets WinAppDriver ImplicitWait timeout. 
+            Default value: <see cref="P:Aquality.Selenium.Core.Configurations.ITimeoutConfiguration.Implicit"/>.
+            </summary>
+            <param name="timeout">Desired Implicit wait timeout.</param>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Applications.Application.Quit">
+            <summary>
+            Quit application.
+            </summary>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Applications.ApplicationStartup">
+            <summary>
+            Provides functionality to  register services
+            </summary>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Applications.AqualityServices">
+            <summary>
+            Controls application and Aquality services
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Applications.AqualityServices.IsApplicationStarted">
+            <summary>
+            Check if application already started.
+            </summary>
+            <value>true if application started and false otherwise.</value>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Applications.AqualityServices.LocalizedLogger">
+            <summary>
+            Gets registered instance of localized logger
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Applications.AqualityServices.Logger">
+            <summary>
+            Gets registered instance of Logger
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Applications.AqualityServices.ConditionalWait">
+            <summary>
+            Gets ConditionalWait object
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Applications.AqualityServices.KeyboardActions">
+            <summary>
+            Gets KeyboardActions object
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Applications.AqualityServices.MouseActions">
+            <summary>
+            Gets MouseActions object
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Applications.AqualityServices.WinAppDriverLauncher">
+            <summary>
+            Gets WinAppDriverLauncher object
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Applications.AqualityServices.ProcessManager">
+            <summary>
+            Gets ProcessManager object
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Applications.AqualityServices.TryToStopAppiumLocalService">
+            <summary>
+            Stops appium local service.
+            </summary>
+            <returns>True if service was running, false otherwise</returns>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Applications.AqualityServices.Application">
+            <summary>
+            Provides current instance of application
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Applications.AqualityServices.SetStartup(Aquality.WinAppDriver.Applications.ApplicationStartup)">
+            <summary>
+            Method which allow user to override or add custom services.
+            </summary>
+            <param name="startup"><see cref="T:Aquality.WinAppDriver.Applications.ApplicationStartup"/> object with custom or overriden services.</param>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Applications.AqualityServices.ApplicationFactory">
+            <summary>
+            Factory for application creation.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Applications.AqualityServices.Get``1">
+            <summary>
+            Resolves required service from <see cref="P:Aquality.WinAppDriver.Applications.AqualityServices.ServiceProvider"/>
+            </summary>
+            <typeparam name="T">type of required service</typeparam>
+            <exception cref="T:System.InvalidOperationException">Thrown if there is no service of the required type.</exception> 
+            <returns></returns>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Applications.AqualityServices.SetDefaultFactory">
+            <summary>
+            Sets default factory responsible for application creation.
+            RemoteApplicationFactory if value set in configuration and LocalApplicationFactory otherwise.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Applications.AqualityServices.SetWindowHandleApplicationFactory(System.Func{OpenQA.Selenium.Appium.Windows.WindowsDriver{OpenQA.Selenium.Appium.Windows.WindowsElement},System.String})">
+            <summary>
+            Sets window handle factory, which attaches to already running application by it's window handle
+            </summary>
+            <param name="getWindowHandleFunction">Function to get window handle via RootSession of Application</param>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Applications.IWindowsApplication">
+            <summary>
+            Provides functionality to work with Windows application via WinAppDriver.  
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Applications.IWindowsApplication.Driver">
+            <summary>
+            Provides instance of Windows Driver for current application.
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Applications.IWindowsApplication.RootSession">
+            <summary>
+            Provides instance of Windows Driver for desktop session.
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Applications.IWindowsApplication.KeyboardActions">
+            <summary>
+            Provides methods representing basic keyboard actions.
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Applications.IWindowsApplication.MouseActions">
+            <summary>
+            Provides methods representing basic mouse actions.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Applications.IWindowsApplication.Launch">
+            <summary>
+            Launches an instance of the current application.
+            </summary>
+            <returns>Current application instance.</returns>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Applications.IWindowsApplication.Quit">
+            <summary>
+            Closes current application and desktop sessions.
+            </summary>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Configurations.ApplicationProfile">
+            <summary>
+            Provides application profile.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Configurations.ApplicationProfile.#ctor(Aquality.Selenium.Core.Configurations.ISettingsFile,Aquality.WinAppDriver.Configurations.IDriverSettings)">
+            <summary>
+            Instantiates class using JSON file with general settings.
+            </summary>
+            <param name="settingsFile">JSON settings file.</param>
+            <param name="driverSettings">Instance of <see cref="T:Aquality.WinAppDriver.Configurations.IDriverSettings"/></param>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Configurations.DriverSettings">
+            <summary>
+            Provides target application profile.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Configurations.DriverSettings.#ctor(Aquality.Selenium.Core.Configurations.ISettingsFile)">
+            <summary>
+            Instantiates class using JSON file with general settings.
+            </summary>
+            <param name="settingsFile">JSON settings file.</param>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Configurations.DriverSettings.HasApplicationPath">
+            <summary>
+            Defines does the current settings have the application path defined
+            </summary>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Configurations.IApplicationProfile">
+            <summary>
+            Describes application settings.
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Configurations.IApplicationProfile.IsRemote">
+            <summary>
+            Is remote WinAppDriver service or not: true to use <see cref="P:Aquality.WinAppDriver.Configurations.IApplicationProfile.RemoteConnectionUrl"/> 
+            and false to create default <see cref="T:OpenQA.Selenium.Appium.Service.AppiumLocalService"/>.
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Configurations.IApplicationProfile.RemoteConnectionUrl">
+            <summary>
+            Gets remote connection URI is case of remote browser.
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Configurations.IApplicationProfile.DriverSettings">
+            <summary>
+            Gets WinAppDriver settings for application.
+            </summary>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Configurations.IDriverSettings">
+            <summary>
+            Describes WinAppDriver settings.
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Configurations.IDriverSettings.AppiumOptions">
+            <summary>
+            Gets desired WinAppDriver options
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Configurations.IDriverSettings.ApplicationPath">
+            <summary>
+            Provides a path to the application
+            </summary>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Elements.Actions.ElementActions">
+            <summary>
+            Abstract class for any actions agains element.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Elements.Actions.ElementActions.#ctor(Aquality.WinAppDriver.Elements.Interfaces.IElement,System.String,System.Func{OpenQA.Selenium.Appium.Windows.WindowsDriver{OpenQA.Selenium.Appium.Windows.WindowsElement}},Aquality.Selenium.Core.Localization.ILocalizedLogger,Aquality.Selenium.Core.Utilities.IElementActionRetrier)">
+            <summary>
+            Instantiates Element actions for a specific element.
+            </summary>
+            <param name="element">Target element.</param>
+            <param name="elementType">Target element's type.</param>
+            <param name="windowsDriverSupplier">Method to get current application session.</param>
+            <param name="localizedLogger">Logger for localized values.</param>
+            <param name="elementActionsRetrier">Retrier for element actions.</param>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Elements.Actions.ElementActions.PerformAction(System.Func{OpenQA.Selenium.Interactions.Actions,OpenQA.Selenium.IWebElement,OpenQA.Selenium.Interactions.Actions})">
+            <summary>
+            Performs submitted action against new <see cref="T:OpenQA.Selenium.Interactions.Actions"/> object on current element.
+            </summary>
+            <param name="action">Action to be performed.</param>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Elements.Actions.ElementActions.PerformInRootSession(System.Func{OpenQA.Selenium.Interactions.Actions,OpenQA.Selenium.Interactions.Actions})">
+            <summary>
+            Performs submitted action against the <see cref="P:Aquality.WinAppDriver.Applications.IWindowsApplication.RootSession"/>.
+            </summary>
+            <param name="action">Action to be performed.</param>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Elements.Actions.ElementActions.LogAction(System.String,System.Object[])">
+            <summary>
+            Logs element action in specific format.
+            </summary>
+            <param name="messageKey">Key of the localized message.</param>
+            <param name="args">Arguments for the localized message.</param>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Elements.Actions.IMouseActions">
+            <summary>
+            Provides methods representing basic mouse actions against the current element.
+            Current element's coordinates are user as last known mouse coordinates.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Elements.Actions.IMouseActions.DragAndDrop(Aquality.WinAppDriver.Elements.Interfaces.IElement)">
+            <summary>
+            Performs a drag-and-drop operation on the current element; drops it on target element.
+            </summary>
+            <param name="target">The element on which the drop is performed.</param>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Elements.Actions.IMouseActions.DragAndDropToOffset(System.Int32,System.Int32)">
+            <summary>
+            Performs a drag-and-drop operation on the current element to a specified offset.
+            </summary>
+            <param name="offsetX">The horizontal offset to which to move the mouse.</param>
+            <param name="offsetY">The vertical offset to which to move the mouse.</param>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Elements.Actions.IMouseActions.MoveByOffset(System.Int32,System.Int32)">
+            <summary>
+            Moves the current element to a specified offset. Works the same as to <see cref="M:Aquality.WinAppDriver.Elements.Actions.IMouseActions.DragAndDropToOffset(System.Int32,System.Int32)"/>
+            </summary>
+            <param name="offsetX">The horizontal offset to which to move the mouse.</param>
+            <param name="offsetY">The vertical offset to which to move the mouse.</param>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Elements.Actions.IMouseActions.MoveFromElement">
+            <summary>
+            Moves the mouse from the current element.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Elements.Actions.IMouseActions.MoveToElement">
+            <summary>
+            Moves the mouse to the current element.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Elements.Actions.IMouseActions.MoveToElement(System.Int32,System.Int32)">
+            <summary>
+            Moves the mouse to the specified offset of the top-left corner of the current element.
+            </summary>
+            <param name="offsetX">The horizontal offset to which to move the mouse.</param>
+            <param name="offsetY">The vertical offset to which to move the mouse.</param>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Elements.Actions.IMouseActions.MoveToElement(System.Int32,System.Int32,OpenQA.Selenium.Interactions.MoveToElementOffsetOrigin)">
+            <summary>
+            Moves the mouse to the specified offset of specified offset origin of the current element.
+            </summary>
+            <param name="offsetX">The horizontal offset to which to move the mouse.</param>
+            <param name="offsetY">The vertical offset to which to move the mouse.</param>
+            <param name="offsetOrigin">The <see cref="T:OpenQA.Selenium.Interactions.MoveToElementOffsetOrigin"/> value from which to calculate the offset.</param>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Elements.Actions.IMouseActions.Scroll(System.Int32,System.Int32)">
+            <summary>
+            Scrolls the current screen by specified offset, starting from the current element.
+            </summary>
+            <param name="offsetX"></param>
+            <param name="offsetY"></param>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Elements.Actions.KeyboardActions">
+            <summary>
+            Implements Keyboard actions for a specific element.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Elements.Actions.KeyboardActions.#ctor(Aquality.WinAppDriver.Elements.Interfaces.IElement,System.String,System.Func{OpenQA.Selenium.Appium.Windows.WindowsDriver{OpenQA.Selenium.Appium.Windows.WindowsElement}},Aquality.Selenium.Core.Localization.ILocalizedLogger,Aquality.Selenium.Core.Utilities.IElementActionRetrier)">
+            <summary>
+            Instantiates Keyboard actions for a specific element.
+            </summary>
+            <param name="element">Target element.</param>
+            <param name="elementType">Target element's type.</param>
+            <param name="windowsDriverSupplier">Method to get current application session.</param>
+            <param name="localizedLogger">Logger for localized values.</param>
+            <param name="elementActionsRetrier">Retrier for element actions.</param>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Elements.Actions.MouseActions">
+            <summary>
+            Implements Mouse actions for a specific element.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Elements.Actions.MouseActions.#ctor(Aquality.WinAppDriver.Elements.Interfaces.IElement,System.String,System.Func{OpenQA.Selenium.Appium.Windows.WindowsDriver{OpenQA.Selenium.Appium.Windows.WindowsElement}},Aquality.Selenium.Core.Localization.ILocalizedLogger,Aquality.Selenium.Core.Utilities.IElementActionRetrier)">
+            <summary>
+            Instantiates Mouse actions for a specific element.
+            </summary>
+            <param name="element">Target element.</param>
+            <param name="elementType">Target element's type.</param>
+            <param name="windowsDriverSupplier">Method to get current application session.</param>
+            <param name="localizationLogger">Logger for localized values.</param>
+            <param name="elementActionsRetrier">Retrier for element actions.</param>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Elements.Button">
+            <summary>
+            Defines Button UI element.
+            </summary>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Elements.ElementFactory">
+            <summary>
+            Factory that creates elements.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Elements.ElementFactory.ResolveSupplier``1(Aquality.Selenium.Core.Elements.ElementSupplier{``0},System.Func{OpenQA.Selenium.ISearchContext})">
+            <summary>
+            Resolves element supplier or return itself if it is not null.
+            </summary>
+            <typeparam name="T">type of target element.</typeparam>
+            <param name="supplier">target element supplier.</param>
+            <param name="customSearchContextSupplier">Custom search context supplier to perform relative search for element.</param>
+            <returns>non-null element supplier</returns>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Elements.Interfaces.IButton">
+            <summary>
+            Describes behavior of Button UI element.
+            </summary>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Elements.Interfaces.IElement">
+            <summary>
+            Descibes behavior of any application element.
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Elements.Interfaces.IElement.WindowsDriverSupplier">
+            <summary>
+            Provides access to WinAppDriver session used for the search and interaction with the current element.
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Elements.Interfaces.IElement.KeyboardActions">
+            <summary>
+            Provides access to <see cref="T:Aquality.WinAppDriver.Actions.IKeyboardActions"/> against the current element.
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Elements.Interfaces.IElement.MouseActions">
+            <summary>
+            Provides access to <see cref="T:Aquality.WinAppDriver.Elements.Actions.IMouseActions"/> against the current element.
+            </summary>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Elements.Interfaces.IElementFactory">
+            <summary>
+            Defines the interface used to create the windows application's elements.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Elements.Interfaces.IElementFactory.GetButton(OpenQA.Selenium.By,System.String,Aquality.Selenium.Core.Elements.ElementState)">
+            <summary>
+            Creates element that implements IButton interface.
+            </summary>
+            <param name="locator">Element locator</param>
+            <param name="name">Element name</param>
+            <param name="elementState">Element existance state</param>
+            <returns>Instance of element that implements IButton interface</returns>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Elements.Interfaces.IElementFactory.GetLabel(OpenQA.Selenium.By,System.String,Aquality.Selenium.Core.Elements.ElementState)">
+            <summary>
+            Creates element that implements ILabel interface.
+            </summary>
+            <param name="locator">Element locator</param>
+            <param name="name">Element name</param>
+            <param name="elementState">Element existance state</param>
+            <returns>Instance of element that implements ILabel interface</returns>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Elements.Interfaces.IElementFactory.GetTextBox(OpenQA.Selenium.By,System.String,Aquality.Selenium.Core.Elements.ElementState)">
+            <summary>
+            Creates element that implements ITextBox interface.
+            </summary>
+            <param name="locator">Element locator</param>
+            <param name="name">Element name</param>
+            <param name="elementState">Element existance state</param>
+            <returns>Instance of element that implements ITextBox interface</returns>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Elements.Interfaces.ILabel">
+            <summary>
+            Describes behavior of Label UI element.
+            </summary>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Elements.Interfaces.ITextBox">
+            <summary>
+            Describes behavior of TextBox UI element.
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Elements.Interfaces.ITextBox.Value">
+            <summary>
+            Gets text value of an element.
+            </summary>
+            <value>String representation of element's value</value>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Elements.Interfaces.ITextBox.Type(System.String,System.Boolean)">
+            <summary>
+            Type text in an element.
+            </summary>
+            <param name="value">Text to type.</param>
+            <param name="secret">Should the typing text be hidden in logs or not. False by default.</param>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Elements.Interfaces.ITextBox.ClearAndType(System.String,System.Boolean)">
+            <summary>
+            Clear element text and type value.
+            </summary>
+            <param name="value">Text to type.</param>
+            <param name="secret">Should the typing text be hidden in logs or not. False by default.</param>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Elements.Label">
+            <summary>
+            Defines Label UI element.
+            </summary>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Elements.TextBox">
+            <summary>
+            Defines TextBox UI element.
+            </summary>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Extensions.ElementExtensions">
+            <summary>
+            Provides extension methods for <see cref="T:Aquality.WinAppDriver.Elements.Interfaces.IElement"/> classes.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Extensions.ElementExtensions.GetElementType(Aquality.WinAppDriver.Elements.Interfaces.IElement)">
+            <summary>
+            element.GetType().Name provides a non-localized name; 
+            ElementType property is localized, but has the protected access and is not defined in the IElement interface.
+            So current method allows to get ElementType if the current element is assignable from <see cref="T:Aquality.Selenium.Core.Elements.Element"/>
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Forms.Form">
+            <summary>
+            Defines base class for any form on any application's window.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Forms.Form.#ctor(OpenQA.Selenium.By,System.String,Aquality.WinAppDriver.Forms.IForm,System.Func{OpenQA.Selenium.Appium.Windows.WindowsDriver{OpenQA.Selenium.Appium.Windows.WindowsElement}},Aquality.Selenium.Core.Elements.ElementState)">
+            <summary>
+            Constructor with parameters.
+            </summary>
+            <param name="locator">Unique locator of the window.</param>
+            <param name="name">Name of the window.</param>
+            <param name="parentForm">Parent form. If set to null, search context of <see cref="P:Aquality.WinAppDriver.Applications.AqualityServices.Application"/> is used.</param>
+            <param name="customSessionSupplier">Custom WinAppDriver session supplier.</param>
+            <param name="elementState">Element presence state.</param>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Forms.Form.ElementFactory">
+            <summary>
+            Element factory <see cref="T:Aquality.WinAppDriver.Elements.Interfaces.IElementFactory"/>
+            </summary>
+            <value>Element factory.</value>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Forms.Form.Application">
+            <summary>
+            Windows Application <see cref="T:Aquality.WinAppDriver.Applications.IWindowsApplication"/>.  
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Forms.Form.RelativeElementFactory">
+            <summary>
+            Element factory <see cref="T:Aquality.WinAppDriver.Elements.Interfaces.IElementFactory"/> to search from the context of the current form.
+            </summary>
+            <value>Relative element factory.</value>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Forms.Form.FindChildElement``1(OpenQA.Selenium.By,System.String,Aquality.Selenium.Core.Elements.ElementSupplier{``0},Aquality.Selenium.Core.Elements.ElementState)">
+            <summary>
+            Finds element relative to current form.
+            </summary>
+            <typeparam name="T">Type of the target element.</typeparam>
+            <param name="childLocator">Locator of the element relative to current form.</param>
+            <param name="childName">Name of the element.</param>
+            <param name="supplier">Delegate that defines constructor of element in case of custom element.</param>
+            <param name="elementState">Element existance state</param>
+            <returns>Instance of element.</returns>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Forms.Form.Size">
+            <summary>
+            Gets size of the form element defined by its locator.
+            </summary>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Forms.IForm">
+            <summary>
+            Defines an interface for any form on any application's window.
+            </summary>
+        </member>
+        <member name="P:Aquality.WinAppDriver.Forms.IForm.Size">
+            <summary>
+            Gets size of the form element defined by its locator.
+            </summary>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Forms.Window">
+            <summary>
+            Defines base class for a separate window of any application.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Forms.Window.#ctor(OpenQA.Selenium.By,System.String,System.Func{OpenQA.Selenium.Appium.Windows.WindowsDriver{OpenQA.Selenium.Appium.Windows.WindowsElement}})">
+            <summary>
+            Constructor with parameters.
+            </summary>
+            <param name="locator">Unique locator of the window.</param>
+            <param name="name">Name of the window.</param>
+            <param name="customSessionSupplier">Custom WinAppDriver session supplier.</param>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Utilities.IProcessManager">
+            <summary>
+            Provides ability to detect running processes and to stop them.
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Utilities.IProcessManager.IsProcessRunning(System.String)">
+            <summary>
+            Defines if any process with the specified name is running.
+            </summary>
+            <param name="name">Pure name of the process (e.g. for WinAppDriver.exe pure name is WinAppDriver).</param>
+            <returns>True if any process by the name specified was found, false otherwise.</returns>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Utilities.IProcessManager.IsExecutableRunning(System.String)">
+            <summary>
+            Defines if any executable with the specified name is running.
+            </summary>
+            <param name="name">Name of the executable (e.g. WinAppDriver.exe).</param>
+            <returns>True if any process was found by the specified executable name, false otherwise.</returns>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Utilities.IProcessManager.Start(System.String)">
+            <summary>
+            Starts a process resource by specifying the name of a document or application 
+            file and associates the resource with a new System.Diagnostics.Process component.
+            </summary>
+            <param name="fileName">The name of a document or application file to run in the process.</param>
+            <returns>A new <see cref="T:System.Diagnostics.Process"/> that is associated with the process resource,
+            or null if no process resource is started.</returns>
+            <see cref="M:System.Diagnostics.Process.Start(System.String)"/>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Utilities.IProcessManager.TryToStopProcesses(System.String)">
+            <summary>
+            Attempts to stop all processes with the specified name.
+            </summary>
+            <param name="name">Pure name of the process (e.g. for WinAppDriver.exe pure name is WinAppDriver).</param>
+            <returns>True if any process was found and all of found processes were stopped successfully, false otherwise.</returns>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Utilities.IProcessManager.TryToStopExecutables(System.String)">
+            <summary>
+            Attempts to stop all processes with the specified name.
+            </summary>
+            <param name="name">Name of the executable (e.g. WinAppDriver.exe).</param>
+            <returns>True if any process was found and all of found processes were stopped successfully, false otherwise.</returns>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Utilities.IWinAppDriverLauncher">
+            <summary>
+            Provides ability to start and stop WinAppDriver
+            </summary>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Utilities.IWinAppDriverLauncher.StartWinAppDriverIfRequired">
+            <summary>
+            Attepmts to find running WinAppDriver process; if no process found, starts it
+            </summary>
+            <returns>Instance of process if it was started or null if it wasn't.</returns>
+        </member>
+        <member name="M:Aquality.WinAppDriver.Utilities.IWinAppDriverLauncher.TryToStopWinAppDriver">
+            <summary>
+            Attempts to stop WinAppDriver process
+            </summary>
+            <returns>True if the process was found and stopped, false otherwise</returns>
+        </member>
+        <member name="T:Aquality.WinAppDriver.Utilities.ProcessManager">
+            <summary>
+            Implementation of <see cref="T:Aquality.WinAppDriver.Utilities.IProcessManager"/>
+            </summary>
+        </member>
+    </members>
+</doc>
